@@ -70,6 +70,6 @@ plt.show()
 
 # 10. Predict the selling price of a new car
 # Example: Predict the price for a car with given features
-new_car = [[7.5, 50000, 0, 0, 1, 0, 1]]  # [present_price, driven_kms, fuel_type, selling_type, transmission, owner, car_age]
+new_car = [[7.5, 50000, 0, 0, 1, 0, 1]] 
 predicted_price = model.predict(new_car)
 print(f"Predicted Selling Price for the new car: {predicted_price}")
